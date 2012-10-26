@@ -1,0 +1,45 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+html { 
+  background:  url("../images/bg-gray.jpg");
+}
+
+
+body > header {
+  background: none;
+}
+
+h1.site-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+h2.site-subtitle {
+  color: #7EC0EE;
+  text-shadow: black 0.1em 0.1em 0.2em;
+
+}
+
+img.profile-picture {
+  border: none;
+  width: 133px;
+  height: 139px; 
+  float: left;
+  margin-right: 20px;
+
+}
+
+article {
+
+  p {
+    font-size: .85em;
+  }
+
+  blockquote {
+    font-size: .95em;
+  }
+
+}
+
