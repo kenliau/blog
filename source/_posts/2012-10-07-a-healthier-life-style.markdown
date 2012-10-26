@@ -69,6 +69,7 @@ Here is two for example:
   >
 >
 
-
-
-
+Finally a good night sleep is also needed for a healthier life style. Before
+12am is the best time for us young people. Sleep early and wake up early is the 
+ideal formula, but not many people do that these days. I am guilty of it myself
+too. Going to bed late but I do tend to wake up early in the morning. 
