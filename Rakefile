@@ -382,7 +382,3 @@ task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
 end
-<<<<<<< HEAD
-=======
-
->>>>>>> 0284a27fc41c85fd057d733530f5ee71c02b5b24
