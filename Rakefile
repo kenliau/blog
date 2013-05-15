@@ -4,7 +4,7 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "kenliau@50.116.63.16"
+ssh_user       = "kenliau@kennyliau.com"
 ssh_port       = "22"
 document_root  = "~/public_html/kennyliau.com/blog/"
 rsync_delete   = true
@@ -382,3 +382,7 @@ task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
 end
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0284a27fc41c85fd057d733530f5ee71c02b5b24
