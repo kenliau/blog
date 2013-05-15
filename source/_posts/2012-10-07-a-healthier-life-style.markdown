@@ -3,7 +3,7 @@ layout: post
 title: "A Healthier Life Style"
 date: 2012-10-07 17:11
 comments: true
-categories: Life
+categories: Life Health
 ---
 
 There is a Chinese saying - 病从口入 (pinyin: bìng cóng kǒu rù) which literally 
