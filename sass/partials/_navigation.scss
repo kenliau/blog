@@ -1,10 +1,17 @@
 body > nav {
+  /* changed */
+  margin-bottom: 20px;
   position: relative;
   background-color: $nav-bg;
   @include background($nav-bg-front, $nav-bg-back);
   border: {
     top: 1px solid $nav-border-top;
     bottom: 1px solid $nav-border-bottom; }
+  /* changed */
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px; /* future proofing */
+  -khtml-border-radius: 15px; /* for old Konqueror browsers */
   padding-top: .35em;
   padding-bottom: .35em;
   form {
