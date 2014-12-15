@@ -61,7 +61,7 @@ If you take a look at the HTML below:
     </html>
 
 
-<img src="/assets/talks/adstruc/css/11-20-2014/counter.png" width="80%"" height="80%">
+{% img fancybox left /assets/talks/adstruc/css/11-20-2014/counter.png 'Counter' 'Counter' %}
 #####[Counter Demo](/assets/talks/adstruc/css/11-20-2014/counter.html)
 <br/>
 <hr/>
@@ -71,7 +71,7 @@ If you take a look at the HTML below:
 
 Sometimes when we are surfing through the internet, we will come across websites with navigation links with separator between them.
 
-<img src="/assets/talks/adstruc/css/11-20-2014/navigation-separator.png" width="80%"" height="80%">
+{% img fancybox left /assets/talks/adstruc/css/11-20-2014/navigation-separator.png %}
 
 ##### Solution 1: Most Common Solution :first-child Pseudo-class Selector
 Most people who has a working knowledge of CSS will apply border-left on li tags and then use CSS pseudo-class first-child to remove the extra border-left like below:
@@ -181,7 +181,7 @@ With columns in CSS, it is able to separate a block of text for us in columns.
         </body>
     </html>
     
-<img src="/assets/talks/adstruc/css/11-20-2014/columns.png" width="80%"" height="80%">
+{% img fancybox left /assets/talks/adstruc/css/11-20-2014/columns.png %}
 #####[Columns Demo](/assets/talks/adstruc/css/11-20-2014/columns.html)
 <br/>
 <hr/>
@@ -245,7 +245,7 @@ By doing this, it performs a 3D effect of a button being pressed down.
 
 When the click is released, the CSS3 transition effect will lose it's effect and go back to it's original button state. 
     
-<img src="/assets/talks/adstruc/css/11-20-2014/button.png" width="80%"" height="80%">
+{% img fancybox left /assets/talks/adstruc/css/11-20-2014/button.png %}
 #####[Button Demo](/assets/talks/adstruc/css/11-20-2014/button.html)
 <br/>
 <hr/>
@@ -316,7 +316,7 @@ It must have **from**, and **to**. If you like to add additional keyframes, you 
 
 The final frame of the animation, which is defined in **to** means the fish will end up with margin-top of 20%, margin-left of 0% and width of 15%. 
 
-<img src="/assets/talks/adstruc/css/11-20-2014/animation.png" width="80%"" height="80%">
+{% img fancybox left /assets/talks/adstruc/css/11-20-2014/animation.png %}
 #####[Fish Animation Demo](/assets/talks/adstruc/css/11-20-2014/animation.html)
 <br/>
 <hr/>
