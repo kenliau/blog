@@ -3,7 +3,7 @@ layout: post
 title: "3 Hidden CSS Tricks and 2 CSS3 Tutorials"
 date: 2014-11-20 19:26
 comments: true
-categories: Talk CSS
+categories: Talk CSS CSS-tricks Tutorial
 ---
 
 A couple weeks ago, my product team at [ADstruc](https://adstruc.com) gave me a chance to talk about CSS. 
