@@ -25,7 +25,7 @@ You can actually do the similar thing in CSS with **counter-reset**, **counter-i
 
 If you take a look at the HTML below:
 <ol>
-  <li>counter-reset:section was used to create a variable named **section** and set the value to 0.</li>
+  <li>counter-reset:section was used to create a variable named <b>section</b> and set the value to 0.</li>
   <li>counter-increment: section was used to increment the section counter by 1.</li>
   <li>counter(section) was used to display the counter.</li>
 </ol>
@@ -61,8 +61,8 @@ If you take a look at the HTML below:
     </html>
 
 
-<img src="../assets/talks/adstruc/css/11-20-2014/counter.png" width="80%"" height="80%">
-#####[Counter Demo](../assets/talks/adstruc/css/11-20-2014/counter.html)
+<img src="/assets/talks/adstruc/css/11-20-2014/counter.png" width="80%"" height="80%">
+#####[Counter Demo](/assets/talks/adstruc/css/11-20-2014/counter.html)
 <br/>
 <hr/>
 <br/>
@@ -71,25 +71,25 @@ If you take a look at the HTML below:
 
 Sometimes when we are surfing through the internet, we will come across websites with navigation links with separator between them.
 
-<img src="navigation-separator.png" width="80%"" height="80%">
+<img src="/assets/talks/adstruc/css/11-20-2014/navigation-separator.png" width="80%"" height="80%">
 
 ##### Solution 1: Most Common Solution :first-child Pseudo-class Selector
 Most people who has a working knowledge of CSS will apply border-left on li tags and then use CSS pseudo-class first-child to remove the extra border-left like below:
 
-  li {
+    li {
         display: inline;
         padding: 0 20px;
-    border-left: 1px solid black;
-  }
+        border-left: 1px solid black;
+    }
     
     li:first-child {
-      border-left: none;
+        border-left: none;
     }
     
 ##### My Favorite Solution: Adjacent Selector
-  li + li {
-    border-left: 1px solid black;
-  }
+    li + li {
+        border-left: 1px solid black;
+    }
     
 Adjacent selector will select only the element that is immediately preceded by the former element. In this case, only the li after another li wil have a black border-left. So if you look at the example below, only **Portfolio** and **Contact** will have a border of left.
 
@@ -123,7 +123,7 @@ Adjacent selector will select only the element that is immediately preceded by t
         </body>
     </html>
     
-#####[Navigation Demo](nav-separator.html)
+#####[Navigation Demo](/assets/talks/adstruc/css/11-20-2014/nav-separator.html)
 <br/>
 <hr/>
 <br/>
@@ -181,8 +181,8 @@ With columns in CSS, it is able to separate a block of text for us in columns.
         </body>
     </html>
     
-<img src="columns.png" width="80%"" height="80%">
-#####[Columns Demo](columns.html)
+<img src="/assets/talks/adstruc/css/11-20-2014/columns.png" width="80%"" height="80%">
+#####[Columns Demo](/assets/talks/adstruc/css/11-20-2014/columns.html)
 <br/>
 <hr/>
 <br/>
@@ -229,24 +229,24 @@ The way 3D effect works like this.
 Take a look at 
 
     button {
-      transition: all .1s linear;
+        transition: all .1s linear;
     }
     
     button:active {
-    box-shadow: 0 2px 0 #27ae60; /* xOffset yOffset blur */
+        box-shadow: 0 2px 0 #27ae60; /* xOffset yOffset blur */
         transform: translateY(3px); /* move down */
-  }
+    }
 
 When a button is clicked and held, it is in the button:active mode. At this time, the CSS3 transition effect will be activated and all CSS property will be changed as fast as 0.1 second.
 
-So, this css pseudo-class will be decrease the box-shadow yOffset from 5px to 2px.
+So, this css pseudo-class will decrease the box-shadow yOffset from 5px to 2px.
 Then, it is using transform CSS property to translate the whole button down 3px.
 By doing this, it performs a 3D effect of a button being pressed down.
 
 When the click is released, the CSS3 transition effect will lose it's effect and go back to it's original button state. 
     
-<img src="button.png" width="80%"" height="80%">
-#####[Button Demo](button.html)
+<img src="/assets/talks/adstruc/css/11-20-2014/button.png" width="80%"" height="80%">
+#####[Button Demo](/assets/talks/adstruc/css/11-20-2014/button.html)
 <br/>
 <hr/>
 <br/>
@@ -312,12 +312,12 @@ As you can see, we are assigning animation CSS properties to .fish class.
 This animation will run infinite time for 3.5s each way. Then it will alternate it's direction every 3.5 seconds. I gave this animation function a name of **swim**.
 
 Next thing we do is assign keyframes for this swim animation function.
-It must have **from**, and **to**. If you like to add additional keyframes, you can. I added two more 0% and 50%. These keyframes means the percent completion of each animation each way. So at 1.75 seconds of each animation, which is 50% of 3.5s, I want the .fish class to have margin-top of 40%, margin-left of 80%, and width of 20%.
+It must have **from**, and **to**. If you like to add additional keyframes, you can. I added two more - 0% and 50%. These keyframes means the percent completion of each animation each way. So at 1.75 seconds of each animation, which is 50% of 3.5s, I want the .fish class to have margin-top of 40%, margin-left of 40%, and width of 20%.
 
-The final frame of the animation, which is defined in **to** means the fish will end up with margin-top f 20%, margin-left of 0% and width of 15%. 
+The final frame of the animation, which is defined in **to** means the fish will end up with margin-top of 20%, margin-left of 0% and width of 15%. 
 
-<img src="animation.png" width="80%"" height="80%">
-#####[Fish Animation Demo](animation.html)
+<img src="/assets/talks/adstruc/css/11-20-2014/animation.png" width="80%"" height="80%">
+#####[Fish Animation Demo](/assets/talks/adstruc/css/11-20-2014/animation.html)
 <br/>
 <hr/>
 <br/>
