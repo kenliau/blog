@@ -6,6 +6,8 @@ comments: true
 categories: Talk CSS CSS-tricks Tutorial
 ---
 
+Hi
+
 A couple weeks ago, my product team at [ADstruc](https://adstruc.com) gave me a chance to talk about CSS. 
 
 I then took a deeper look at some CSS tricks that I think are rarely discussed by people but still amazing to learn about them.
