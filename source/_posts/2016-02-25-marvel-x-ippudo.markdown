@@ -38,7 +38,7 @@ Then Avengers come to the rescue!
 The most important part of ramen is the broth. It is what makes a ramen a ramen. Marvel Soup - 3-year-aged Iberico Pork soup, blended with organic chicken soup. The aged pork represents Marvel comic's founding in 1939, and the chicken soup Marvel's success 'soaring' into the sky in the present day. With both broth combined, they make "Ironman II" soup.
 {% img fancybox right /images/marvel-x-ippudo/the-avengers-interactive-ramen.jpg 256 256 'The Avengers Interactive Ramen' 'The Avengers Interactive Ramen' %}
 
-Next is the ingredients of the ramen bowl. They are consisted of:
+Next are the ingredients of the ramen bowl. They are consisted of:
 
 
 + Green Gamma-Ray "Hulk" Noodles
@@ -73,7 +73,7 @@ I explained to him my favorite Marvel superheroes is Ironman and coincidentally,
 I ended the night with a picture with C.B. Cebulski and Fumihiro Kanegae. I held the Capt's Shield!!!
 {% img fancybox right /images/marvel-x-ippudo/tshirt.gif 256 256 'T-Shirt' 'T-Shirt' %}
 {% img fancybox left /images/marvel-x-ippudo/team-photo.jpg 256 256 'Team' 'Team' %}
-In conclusion, I am very glad I participated in this 2 days special events. This chance is very rare and I still think about the exquisite broth with the ramen. Wish I can have it again...
+In conclusion, I am very glad I participated in this 2 days special event. This chance is very rare and I still think about the exquisite broth with the ramen. Wish I can have it again...
 
 
 
